@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">HealthStory</string>
+    <string name="button_sign_in">Sign in</string>
+    <string name="button_sign_up">Sign up</string>
+    <string name="hint">PASSWORD</string>
+    <string name="data_button">DATA</string>
+
+    <string name="options_button">OPTIONS</string>
+    <string name="show_story_button">STORY</string>
+
+    <string name="db_address">https://healthstoryapp-default-rtdb.firebaseio.com/</string>
+    <string name="patients_table">test/patients</string>
+    <string name="users_table">test/users</string>
+    <string name="doctors_table">test/doctors</string>
+    <string name="stories_table">test/stories</string>
+    <string name="storage_stories_dir">test/stories</string>
+    <string name="stories_path_to_tegs_child">tegs</string>
+
+    <string name="dialog_auth_no_user_title">Sorry!</string>
+    <string name="dialog_auth_no_user_message">There is no user with such password</string>
+    <string name="dialog_create_password_exists_title">Sorry!</string>
+    <string name="dialog_create_password_exists_message">There is user with this password already</string>
+    <string name="dialog_user_created_title">Success!</string>
+    <string name="dialog_patient_created_message">Patient is created</string>
+    <string name="dialog_doctor_created_message">Doctor is created</string>
+    <string name="dialog_not_create_user_title">Sorry!</string>
+    <string name="dialog_not_create_user_message">User was not created because of some problems</string>
+    <string name="dialog_is_added_to_story_title">Success!</string>
+    <string name="dialog_is_added_to_story_message">Image is added to story</string>
+    <string name="dialog_not_added_to_story_title">Sorry!</string>
+    <string name="dialog_not_added_to_story_message">Image was not added to story because of some problems</string>
+    <string name="dialog_reject_doctor_story_title">Password belongs to Doctor</string>
+    <string name="dialog_reject_doctor_story_message">Enter password of Patient to see the story</string>
+
+    <string name="hint_user_password">Enter unique password for new user</string>
+    <string name="next">Далее</string>
+    <string name="usertype_patient">patient</string>
+    <string name="usertype_doctor">doctor</string>
+    <string name="not_defined_password">Enter unique password for new user!</string>
+    <string name="not_defined_user_type">Choose type of new user!</string>
+    <string name="not_unique_password">Password already exists!</string>
+
+    <string name="hint_first_name">First name</string>
+    <string name="hint_second_name">Second name</string>
+    <string name="hint_patronymic">Patronymic</string>
+    <string name="hint_dob">Date of Birdth: xx.xx.xxxx</string>
+    <string name="gendertype_male">male</string>
+    <string name="gendertype_female">female</string>
+    <string name="gendertype_other">other</string>
+    <string name="not_defined_first_name">Enter first name for new user!</string>
+    <string name="not_defined_second_name">Enter second name for new user!</string>
+    <string name="not_defined_dob">Enter date of Birth for new user!</string>
+    <string name="not_defined_gender">Choose gender of new user!</string>
+    <string name="incorrect_dob">Enter date of Birth in xx.xx.xxxx form, please</string>
+
+    <string name="uploadStrory_button">choose file</string>
+    <string name="hint_date">Enter date: xx.xx.xxxx</string>
+    <string name="checkbox_snimok">snimok</string>
+    <string name="checkbox_analiz">analiz</string>
+    <string name="checkbox_visit">visit</string>
+    <string name="checkbox_spravka">spravka</string>
+    <string name="checkbox_other">other</string>
+    <string name="not_defined_date">Enter date of attaching image to story!</string>
+    <string name="not_defined_tegs">Check tegs describing image for better exploring</string>
+    <string name="not_attached_file">Attach file!</string>
+    <string name="incorrect_date">Enter date of attaching in xx.xx.xxxx form, please</string>
+
+    <string name="create_user_button">create user</string>
+
+    <string name="type_story_list_view_button">отображать списком</string>
+    <string name="type_story_page_view_button">отображать страницу</string>
+
+    <string name="filter_date_title">Отображать по дате:</string>
+    <string name="filter_date_up">Сначала новые</string>
+    <string name="filter_date_down">Сначала старые</string>
+    <string name="filter_teg_title">Отображать по тегам:</string>
+    <string name="teg_snimok">Снимок</string>
+    <string name="teg_spravka">Справка</string>
+    <string name="teg_analiz">Анализ</string>
+    <string name="teg_visit">Посещение</string>
+    <string name="teg_other">Другое</string>
+
+    <string name="ok_button">OK</string>
+    <string name="not_defined_tegs_filter">Check tegs describing images for search!</string>
+
+    <string name="toolbar_button_filters">Filters</string>
+    <string name="toolbar_button_add_image">Add to story</string>
+    <string name="empty_story_list">Не найдено страниц, удовлетворяющих параметрам запроса</string>
+    <string name="button_next">}</string>
+    <string name="button_back">{</string>
+
+    <string name="hint_user_story_edittext">Password of user</string>
+    <string name="button_show_story">Show story</string>
+
+</resources>

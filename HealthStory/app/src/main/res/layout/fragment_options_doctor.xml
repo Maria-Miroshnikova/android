@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <Button
+            android:id="@+id/create_user_option_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="@string/create_user_button"
+            android:onClick="onCreateUserOptionClicked"
+            ></Button>
+
+        <Button
+            android:id="@+id/button_show_story"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/create_user_option_button"
+            android:text="@string/button_show_story"
+            android:onClick="onShowStoryButtonClicked"
+            ></Button>
+
+        <EditText
+            android:id="@+id/show_user_story_edittext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_user_story_edittext"
+            android:layout_toLeftOf="@id/button_show_story"
+            android:layout_marginRight="20dp"
+            android:layout_alignBaseline="@id/button_show_story"
+            ></EditText>
+
+</RelativeLayout>

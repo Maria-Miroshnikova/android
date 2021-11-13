@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20pt"
+    tools:context=".CreateUserDataActivity">
+
+    <EditText
+        android:id="@+id/first_name_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_first_name"
+        ></EditText>
+
+    <EditText
+        android:id="@+id/second_name_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_second_name"
+        android:layout_below="@id/first_name_edittext"
+        android:layout_marginTop="10pt"
+        ></EditText>
+
+    <EditText
+        android:id="@+id/patronymic_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_patronymic"
+        android:layout_below="@id/second_name_edittext"
+        android:layout_marginTop="10pt"
+        ></EditText>
+
+    <EditText
+        android:id="@+id/dob_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_dob"
+        android:layout_below="@id/patronymic_edittext"
+        android:layout_marginTop="10pt"
+        ></EditText>
+
+    <RadioGroup
+        android:id="@+id/gender_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5pt"
+        android:layout_below="@id/dob_edittext">
+
+        <RadioButton
+            android:id="@+id/gender_male_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gendertype_male"
+            ></RadioButton>
+
+        <RadioButton
+            android:id="@+id/gender_female_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gendertype_female"
+            android:layout_marginLeft="10pt"
+            ></RadioButton>
+
+        <RadioButton
+            android:id="@+id/gender_other_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gendertype_other"
+            android:layout_marginLeft="10pt"
+            ></RadioButton>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/incorrect_input_texview_create_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/create_data_button"
+        android:textColor="#FF0000"
+        ></TextView>
+
+    <Button
+        android:id="@+id/create_data_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/page_2_3"
+        android:layout_margin="5pt"
+        android:onClick="onCreateDataButtonClicked"
+        ></Button>
+
+    <TextView
+        android:id="@+id/page_2_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2/3"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        ></TextView>
+
+</RelativeLayout>

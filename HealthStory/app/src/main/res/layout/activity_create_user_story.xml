@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20pt"
+    tools:context=".CreateUserStoryActivity">
+
+    <TextView
+        android:id="@+id/choose_file_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10pt"
+        android:text="Add file to patient`s health story"
+        ></TextView>
+
+    <Button
+        android:id="@+id/choose_file_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/choose_file_textview"
+        android:text="@string/uploadStrory_button"
+        android:onClick="onChooseFileButtonClicked"
+        ></Button>
+
+    <ImageView
+        android:id="@+id/preview"
+        android:layout_width="40pt"
+        android:layout_height="40pt"
+        android:layout_below="@id/choose_file_button"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5pt"
+        ></ImageView>
+
+    <EditText
+        android:id="@+id/date_edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/preview"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/hint_date"
+    ></EditText>
+
+    <TextView
+        android:id="@+id/checkbox_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/date_edittext"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5pt"
+        android:text="Check the tegs, describing image:"
+        ></TextView>
+
+    <CheckBox
+        android:id="@+id/checkbox_snimok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checkbox_textview"
+        android:layout_centerHorizontal="true"
+        android:text="@string/checkbox_snimok"
+        ></CheckBox>
+
+    <CheckBox
+        android:id="@+id/checkbox_spravka"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checkbox_snimok"
+        android:layout_centerHorizontal="true"
+        android:text="@string/checkbox_spravka"
+        ></CheckBox>
+
+    <CheckBox
+        android:id="@+id/checkbox_analiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checkbox_spravka"
+        android:layout_centerHorizontal="true"
+        android:text="@string/checkbox_analiz"
+        ></CheckBox>
+
+    <CheckBox
+        android:id="@+id/checkbox_visit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checkbox_analiz"
+        android:layout_centerHorizontal="true"
+        android:text="@string/checkbox_visit"
+        ></CheckBox>
+
+    <CheckBox
+        android:id="@+id/checkbox_other"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checkbox_visit"
+        android:layout_centerHorizontal="true"
+        android:text="@string/checkbox_other"
+        ></CheckBox>
+
+    <TextView
+        android:id="@+id/incorrect_input_texview_create_story"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/create_story_button"
+        android:textColor="#FF0000"
+        ></TextView>
+
+    <Button
+        android:id="@+id/create_story_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/page_3_3"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5pt"
+        android:text="@string/next"
+        android:onClick="onUploadButtonClicked"
+        ></Button>
+
+    <TextView
+        android:id="@+id/page_3_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3/3"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        ></TextView>
+
+</RelativeLayout>

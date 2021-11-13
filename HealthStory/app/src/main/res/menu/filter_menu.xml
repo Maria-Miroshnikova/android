@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single">
+        <item android:title="@string/filter_date_up"
+            android:onClick="onItemFirstNewClicked"
+            />
+        <item android:title="@string/filter_date_down"
+            android:onClick="onItemFirstOldClicked"
+            />
+        ></group>
+
+    <group
+        android:checkableBehavior="all">
+        <item android:title="@string/teg_snimok"
+            android:onClick="onItemSnimokClicked"
+            />
+        <item android:title="@string/teg_spravka"
+            android:onClick="onItemSpravkaClicked"
+            />
+        <item android:title="@string/teg_analiz"
+            android:onClick="onItemAnalizClicked"
+            />
+        <item android:title="@string/teg_visit"
+            android:onClick="onItemVisitClicked"
+            />
+        <item android:title="@string/teg_other"
+            android:onClick="onItemOtherClicked"
+            />
+    </group>
+
+    <item android:title="OK"
+        android:onClick="onItemOkClicked"
+        />
+
+</menu>
