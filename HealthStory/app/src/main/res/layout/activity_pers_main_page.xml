@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PersMainPageActivity"
+    android:layout_margin="30sp"
+    >
+
+    <TextView
+        android:id="@+id/perspage_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Personal Page of"
+        android:textSize="12pt"
+        android:layout_marginBottom="10dp"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/account_name_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="15pt"
+        android:layout_below="@id/perspage_textview"
+        ></TextView>
+
+    <Button
+        android:id="@+id/data_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/account_name_textview"
+        android:layout_alignLeft="@id/perspage_textview"
+
+        android:text="@string/data_button"
+        android:textSize="6pt"
+
+        android:onClick="onDataButtonClicked"
+        ></Button>
+
+    <Button
+        android:id="@+id/options_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/account_name_textview"
+        android:layout_alignRight="@id/perspage_textview"
+
+        android:text="@string/options_button"
+        android:textSize="6pt"
+
+        android:onClick="onOptionsButtonClicked"
+        ></Button>
+
+</RelativeLayout>

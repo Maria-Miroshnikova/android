@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context=".ShowStoryImageActivity">
+
+    <ImageView
+        android:id="@+id/story_image_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        ></ImageView>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_weight="0"
+        android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_back"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:text="@string/button_back"
+                android:onClick="onBackButtonClicked"
+                android:layout_alignParentLeft="true"
+                ></Button>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_toLeftOf="@id/button_next"
+                android:layout_toRightOf="@id/button_back"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/big_image_date_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20pt"
+                    android:layout_centerHorizontal="true"
+                    ></TextView>
+
+                <TextView
+                    android:id="@+id/big_image_tegs_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="7pt"
+                    android:layout_marginTop="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/big_image_date_textview"
+                    ></TextView>
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/button_next"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:text="@string/button_next"
+                android:onClick="onNextButtonClicked"
+                android:layout_alignParentRight="true"
+                ></Button>
+    </RelativeLayout>
+
+</LinearLayout>

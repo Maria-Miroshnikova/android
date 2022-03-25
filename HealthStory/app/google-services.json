@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "782597102560",
+    "project_id": "healthstoryapp",
+    "storage_bucket": "healthstoryapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:782597102560:android:6a87988e7f8b0ea8b96985",
+        "android_client_info": {
+          "package_name": "com.hfad.healthstory"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "782597102560-fdetghbk8932cq99330bsuavm9k5gcuv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hfad.healthstory",
+            "certificate_hash": "d20c39da755c797a00e81f48eed308816e1f418e"
+          }
+        },
+        {
+          "client_id": "782597102560-fjjtrnrc3l9404p3ivana84e56l7gv0o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_vHX2CDkdT0BJKP61U2XvA3eH6tmE_e8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "782597102560-fjjtrnrc3l9404p3ivana84e56l7gv0o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
