@@ -10,6 +10,8 @@
 
 Авторизация происходит по уникальному паролю.
 
+Видео интерактива с приложением см. в корневом каталоге.
+
 ![authorisation](https://user-images.githubusercontent.com/43678315/141685415-ce088287-6652-4266-ac89-d901fc32feff.jpg)
 
 ![create_user](https://user-images.githubusercontent.com/43678315/141685424-3a2172b8-8058-47cd-baf4-cba35a8a4768.jpg)
